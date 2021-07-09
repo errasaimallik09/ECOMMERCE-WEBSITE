@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <title>All Products -ESM MALL</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            </div>
+            <!--products section-->
+        
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>All Products</h2>
+                    <select onchange="cl(this.value)">
+                        <option value="products.html" selected>Default Sorting</option>
+                       <option value="prices.html">Sort by Price</option>
+                        <option value="popular.html">Popularity</option>
+                        <option value="rate.html">Rating</option>
+                        <option value="dis.html">Discount</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-1.jpg" >
+                        <div class="info">
+                        <h1>Red Printed T-shirt</h1>
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                        <p>&#8377; 500.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="productdetails.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-2.jpg" >
+                        <div class="info">
+                            <h1>Hrx Shoes</h1>
+                            <p>&#9733; &#9733; &#9733; &#9734; &#9734; </p>
+                            <p>&#8377; 1950.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod2.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-3.jpg" >
+                        <div class="info">
+                            <h1>Hrx track pant</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                            <p>&#8377; 1500.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod3.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-4.jpg" >
+                        <div class="info">
+                            <h1>Black Puma T-shirt Women</h1>
+                            <p>&#9733; &#9733; &#9734; &#9734; &#9734; </p>
+                            <p>&#8377; 700.00</p>
+                            <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod4.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-5.jpg" >
+                        <div class="info">
+                            <h1>Fila Sneakers</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9733; </p>
+                            <p>&#8377; 2500.00</p>
+                            <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod5.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-6.jpg" >
+                        <div class="info">
+                            <h1>Adidas Black T-Shirt</h1>
+                            <p>&#9733; &#9733; &#9733; &#9734; &#9734; </p>
+                            <p>&#8377; 950.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod6.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-7.jpg" >
+                        <div class="info">
+                            <h1>Hrx socks</h1>
+                            <p>&#9733; &#9733; &#9733; &#9734; &#9734; </p>
+                            <p>&#8377; 150.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod7.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-8.jpg" >
+                        <div class="info">
+                            <h1>Fossil Analog watch Women</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                            <p>&#8377; 4700.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod8.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                </div>
+                <!----->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-9.jpg" >
+                        <div class="info">
+                            <h1>Titan Watch</h1>
+                            <p>&#9733; &#9733; &#9734; &#9734; &#9734; </p>
+                            <p>&#8377; 850.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod9.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-10.jpg" >
+                        <div class="info">
+                            <h1>Adidas Shoes</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                            <p>&#8377; 2450.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod10.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-11.jpg" >
+                        <div class="info">
+                            <h1>Puma Sneakers</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                            <p>&#8377; 1500.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod11.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-12.jpg" >
+                        <div class="info">
+                            <h1>Nike track pant</h1>
+                            <p>&#9733; &#9733; &#9734; &#9734; &#9734; </p>
+                            <p>&#8377; 2700.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod12.html" class="btnimg">View In Gallery</a>
+                    </div>
+                   
+                    </div>
+                </div>
+                
+            <!--page btn-->
+            <div class="page-btn">
+                <span onclick="window.location='rate.html'">1</span>
+                <span onclick="window.location='dis.html'">2</span>
+                <span onclick="window.location='popular.html'">3</span>
+                <span onclick="window.location='prices.html'">4</span>
+                <span onclick="window.location='index.html'">&#8594;</span>
+            </div>
+            </div>
+<!----footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose Is to Sustainably Make the Pleasure and Benefits of 
+                        fashion items  Accesible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Gmail</li>
+                       <a href="https://www.instagram.com/_.e_s_m._09/"><li>Instagram</li></a>
+                       <a href="https://www.facebook.com/saimallik.erra.3/"><li>FaceBook</li></a>
+                        <a href="www.linkedin.com/in/sai-mallik-erra-3b9a93204"><li>LinkedIn</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">CopyRight 2021-ESM MALL</p>
+        </div>
+    </div>
+<!--js toggle menu-->
+<script>
+    var Menu=document.getElementById("MenuItems");
+    Menu.style.maxHeight="0px";
+    function menutoggle(){
+        if( Menu.style.maxHeight=="0px"){
+            Menu.style.maxHeight="200px";
+        }
+        else{
+            Menu.style.maxHeight="0px";
+        }
+    }
+</script>
+<!--for dropdown menu change-->
+<script>
+    function cl(src){
+        window.location=src;
+    }
+</script>
+    </body>
+
+</html>

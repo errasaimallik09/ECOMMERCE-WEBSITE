@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <title>All Products -ESM MALL</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            </div>
+            
+            <!--single product details-->
+            <div class="small-container single-product">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/product-9.jpg" width="100%" id="productimg">
+
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="images/product-9.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/prod9-2.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/prod9-3.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/prod9-4.jpg" width="100%" class="small-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p>Home /Watch</p>
+                        <h1 id="brand9">Titan Watch</h1>
+                        <h4>&#8377; <span id="price9">850.00</span></h4>
+                        <select id="size9" name="size9" >
+                            <option value="size" disabled selected>SelectSize</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="xlarge">XL</option>
+                        </select>
+                        <input type="number" id="quantity9" name="quantity9" value="1" min="1">
+                        <a class=" add-cart btn" href="cart.html">Add to Cart</a>
+                        <h3>Product Details<span style="color: darkblue;margin-left: 10px;">&#9776;</span></h3>
+                        <br>
+                        <p>People create all kind of fancy watches and clocks, never stopping to realize 
+                            they’re building monuments to the greatest of all thieves  
+                        </p>
+
+                    </div>
+                    <p id="message9"></p>
+                </div>
+            </div>
+            <!--title-->
+            <div class="small-container">
+                <div class="row row-2">
+              <h2>Related Products</h2>
+              <a href="products.html" style="text-decoration: none; color: black;">View More</a>      
+                </div>
+            </div>
+
+            <!--products-->
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-1.jpg" >
+                        <div class="info">
+                        <h1>Red Printed T-shirt</h1>
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                        <p>&#8377; 500.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="productdetails.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-2.jpg" >
+                        <div class="info">
+                            <h1>Hrx Shoes</h1>
+                            <p>&#9733; &#9733; &#9733; &#9734; &#9734; </p>
+                            <p>&#8377; 1950.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod2.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-3.jpg" >
+                        <div class="info">
+                            <h1>Hrx track pant</h1>
+                            <p>&#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                            <p>&#8377; 1500.00</p>
+                        <a href="cart.html" class="btnimg">Cart</a>
+                        <a href="prod3.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-4.jpg" >
+                        <div class="info">
+                            <h1>Black Puma T-shirt Women</h1>
+                            <p>&#9733; &#9733; &#9734; &#9734; &#9734; </p>
+                            <p>&#8377; 700.00</p>
+                            <a href="cart.html" class="btnimg">Cart</a>
+                            <a href="prod4.html" class="btnimg">View In Gallery</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+<!----footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose Is to Sustainably Make the Pleasure and Benefits of 
+                        fashion items  Accesible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Gmail</li>
+                       <a href="https://www.instagram.com/_.e_s_m._09/"><li>Instagram</li></a>
+                       <a href="https://www.facebook.com/saimallik.erra.3/"><li>FaceBook</li></a>
+                        <a href="www.linkedin.com/in/sai-mallik-erra-3b9a93204"><li>LinkedIn</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">CopyRight 2021-ESM MALL</p>
+        </div>
+    </div>
+<!--js toggle menu-->
+<script>
+    var Menu=document.getElementById("MenuItems");
+    Menu.style.maxHeight="0px";
+    function menutoggle(){
+        if( Menu.style.maxHeight=="0px"){
+            Menu.style.maxHeight="200px";
+        }
+        else{
+            Menu.style.maxHeight="0px";
+        }
+    }
+</script>
+<!--js for product gallery-->
+<script>
+    var pr=document.getElementById("productimg");
+    var x=document.getElementsByClassName("small-img");
+    x[0].onclick=function(){
+        pr.src=x[0].src;
+    }
+    x[1].onclick=function(){
+        pr.src=x[1].src;
+    }
+    x[2].onclick=function(){
+        pr.src=x[2].src;
+    }
+    x[3].onclick=function(){
+        pr.src=x[3].src;
+    }
+</script>
+    </body>
+
+</html>
